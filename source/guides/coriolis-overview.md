@@ -29,7 +29,13 @@ After thoroughly evaluating migration solutions, **Coriolis** emerged as the cle
 <img src="../_static/images/sivali.png" alt="Sivali Cloud Technology">
 <img class="logo-light" src="../_static/images/vhi-128.svg" alt="Virtuozzo"><img class="logo-dark" src="../_static/images/vhi-128-dark.svg" alt="">
 <img src="../_static/images/66ec6956cb6658555fd52a17_Cloud-Logo-Blue-1.svg" alt="Cloud">
-
+<img src="../_static/images/continum_logo.svg" alt="Continum">
+</div>
+<div class="partner-logos-row">
+<img src="../_static/images/cloudist_logo.png" alt="Cloudist">
+<img src="../_static/images/blueconsult_logo.png" alt="BlueConsult">
+<a aria-hidden="true"></a>
+<a aria-hidden="true"></a>
 </div>
 </div>
 
