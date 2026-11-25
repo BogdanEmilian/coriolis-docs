@@ -15,7 +15,7 @@ Latest Release
 * Validate connection info before creating an endpoint, so invalid endpoints are no longer saved
 * Add the `coriolis endpoint validate connection info` CLI command
 * Bugfix task and minion pool progress inconsistencies
-* Appliance upgrades no longer reset `coriolis.conf`
+* Appliance upgrades now save custom configurations in `coriolis.conf.d/provider.conf`
 * Linux OSMorphing:
   * Fix package removal on RHEL 7
   * Fix RHEL 7 not being selected for VMs with a `Server` os-release name
@@ -31,7 +31,7 @@ Latest Release
 
 ### Coriolis Provider AWS
 
-* Show the block device name as the disk name in storage mapping
+* Export the block device name as the disk name
 
 ### Coriolis Provider CloudStack
 
@@ -49,7 +49,7 @@ Latest Release
 
 ### Coriolis Provider Nutanix
 
-* Add incremental transfers using CBT for AOS 7.3 and later; older AOS versions still copy the whole disk
+* Add incremental transfers using CRT for AOS 7.3 and later; older AOS versions still copy the whole disk
 
 ### Coriolis Provider OCI
 
@@ -58,13 +58,13 @@ Latest Release
 ### Coriolis Provider Openstack
 
 * Fix concurrent transfers of the same instance interfering with each other's export worker
-* Show the volume and image name as the disk name in storage mapping
+* Export the volume and image name as the disk name
 
 ### Coriolis Provider oVirt
 
 * Fix VM creation failing when TPM is enabled on BIOS instances
 * Fix `Force Disable Memory Ballooning` leaving ballooning enabled
-* Show the disk alias as the disk path in storage mapping
+* Export the disk alias as the disk path
 
 ### Coriolis Provider Proxmox
 
@@ -72,7 +72,7 @@ Latest Release
 
 ### Coriolis Provider STACKIT
 
-* Show the volume and image name as the disk name in storage mapping
+* Export the volume and image name as the disk name
 
 ### Coriolis Provider VMware
 
