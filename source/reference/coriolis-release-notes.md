@@ -14,7 +14,7 @@ Latest Release
 
 * Validate connection info before creating an endpoint, so invalid endpoints are no longer saved
 * Add the `coriolis endpoint validate connection info` CLI command
-* Bugfix task and minion pool progress inconsistencies
+* Fix task and minion pool progress inconsistencies
 * Appliance upgrades now save custom configurations in `coriolis.conf.d/provider.conf`
 * Linux OSMorphing:
   * Fix package removal on RHEL 7
