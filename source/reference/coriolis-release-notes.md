@@ -31,7 +31,7 @@ Latest Release
 
 ### Coriolis Provider AWS
 
-* Export the block device name as the disk name
+* Export the block device name as the disk path
 
 ### Coriolis Provider CloudStack
 
