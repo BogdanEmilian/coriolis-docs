@@ -26,7 +26,7 @@ Latest Release
 
 * Fix dashboard statistics, endpoint usage counts and search only covering the page last viewed
 * Fix inconsistencies in list filtering, pagination and search in transfers/deployments
-* Show the disk name and size in storage mapping, so the disks of a VM can be told apart
+* Show the disk name (or path) and size in the storage mapping, so the disks of a VM can be told apart
 * Add the `Unexecuted` status filter to the Transfers page
 
 ### Coriolis Provider AWS
