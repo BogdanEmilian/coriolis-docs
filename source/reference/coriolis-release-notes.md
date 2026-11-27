@@ -72,7 +72,7 @@ Latest Release
 
 ### Coriolis Provider STACKIT
 
-* Export the volume and image name as the disk name
+* Export the volume and image name as the disk path
 
 ### Coriolis Provider VMware
 
