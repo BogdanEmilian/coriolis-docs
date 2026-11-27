@@ -58,7 +58,7 @@ Latest Release
 ### Coriolis Provider Openstack
 
 * Fix concurrent transfers of the same instance interfering with each other's export worker
-* Export the volume and image name as the disk name
+* Export the volume and image name as the disk path
 
 ### Coriolis Provider oVirt
 
